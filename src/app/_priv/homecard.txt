@@ -1,0 +1,8 @@
+<HomeCards 
+            cardImage = ""
+            cardImageAlt = ""
+            cardTitle = ""
+            cardTrack = ""
+            date = ""
+            description = "" 
+            />
