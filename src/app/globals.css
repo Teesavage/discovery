@@ -22,6 +22,18 @@ body{
     font-size: 15px;
     overflow-x: hidden; 
   }
+.generalBtn{
+  padding: 5px;
+  margin: 5px;
+  background: var(--primary);
+  border-radius: 10px;
+  font-size: 1.1em;
+  font-weight: bold;
+  cursor: pointer;
+}
+.generalBtn:hover{
+  background-color: var(--secondary);
+}
 
   /* fonts */
 h1,h2,h3,h4 {
@@ -30,6 +42,7 @@ h1,h2,h3,h4 {
   a, li,p, hr {
     color: var(--primary)
   }
+
   
   
   /* mobile(default) styles */
@@ -40,6 +53,7 @@ h1,h2,h3,h4 {
     top: 0px;
     z-index: 1;
   }
+
   #header button{
     background-color: var(--tertiary);
     color: var(--primary);
@@ -135,6 +149,45 @@ h1,h2,h3,h4 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
+  .blogBannerImg{
+    width: 100%;
+    height: 400px;
+  }
+  .blogPageTitle{
+    font-size: 1.3em;
+  }
+  #blogPostCard{
+    padding: 10px;
+  }
+  #blogPostCard h1{
+    color: var(--primary);
+    font-size: 2.5em;
+  }
+  #blogPostCard span{
+    color: var(--secondary);
+    font-size: 1.3em;
+  }
+  .blogImages{
+    width: 80%;
+    margin: 10px auto;
+  }
+  #blog{
+    padding: 10px;
+    color: var(--primary);
+  }
+  #blog i, p{
+    font-size: 1.5em;
+  }
+  #contact{
+    padding: 10px;
+    margin: 5px;
+  }
+  .form{
+    padding: 5px;
+    margin: 5px;
+    width: 80%; 
+    border-radius: 10px;
+  }
 
 
 
@@ -153,6 +206,7 @@ h1,h2,h3,h4 {
     margin: 10px auto;
     padding-left: 10px;
     padding-right: 10px;
+    color: var(--tertiary);
   }
   #footer i:hover{
     background: #5cd850;
@@ -180,9 +234,12 @@ h1,h2,h3,h4 {
       .homeCard{
         width: 85%;
         height: 700px;
-        grid-row: span 2;
+        grid-row: span 1;
         margin: 10px auto;
         margin-bottom: 20px;
+      }
+      .blogImages{
+        width: 60%;
       }
 }
 
@@ -227,10 +284,19 @@ h1,h2,h3,h4 {
       .homeCard{
         width: 85%;
         height: 700px;
-        grid-row: span 3;
+        grid-row: span 1;
         margin: 10px auto;
         margin-bottom: 20px;
       }
+      .blogBannerImg{
+        height: 500px;
+        width: 50%;
+        float: right;
+        margin-right: 2px;
+     }
+      
+        
+      
 
       
 }

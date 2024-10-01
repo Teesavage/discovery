@@ -11,7 +11,7 @@ export const metadata = {
     default: "Discovery Deck",
     template: "%s | Discovery Deck"
   },
-  description: "Home To Future Sounds",
+  description: "Home To Nigeria's Future Sounds",
 };
 
 

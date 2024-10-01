@@ -1,0 +1,14 @@
+import BlogPosts from "@/components/blogPosts";
+
+export default function TweehzSapaLoving(){
+    return(
+        <>
+        <BlogPosts 
+            bannerImg = ""
+            blogTags =""
+            blogTitle =""
+            blogDate =""
+            />
+        </>
+    )
+}
