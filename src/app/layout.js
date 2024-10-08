@@ -20,7 +20,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={signika.className}>
         <Header />
+        
         {children}
+        
         <Footer />
       </body>
     </html>

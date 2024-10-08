@@ -2,9 +2,14 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState, useEffect } from "react";
+import { usePathname } from "next/navigation";
+import { motion } from "framer-motion";
 
 
 export default function Header(){
+
+    const currentPath = usePathname();
+
     const [isOpen, setIsOpen] = useState(false);
     const toggleSideBar = () => setIsOpen(prev => !prev);
 
@@ -31,11 +36,11 @@ export default function Header(){
         </ul>
 
         <ul id="navList2">
-            <Link href="/"><li className="navItem2">Home</li></Link>
-            <Link href="/blog"><li className="navItem2">Blog</li></Link>
-            <Link href=""><li className="navItem2">Editorials</li></Link>
-            <Link href=""><li className="navItem2">About Us</li></Link>
-            <Link href="/#contact"><li className="navItem2">Contact Us</li></Link>
+            <motion.div whileHover={{scale: 1.1}}> <Link href="/"><li className = {currentPath === "/" ? "navItem22" : "navItem2"}>Home</li></Link></motion.div>
+            <motion.div whileHover={{scale: 1.1}}> <Link href="/blog"><li className= {currentPath === "/blog" ? "navItem22" : "navItem2"}>Blog</li></Link></motion.div>
+            <motion.div whileHover={{scale: 1.1}}> <Link href=""><li className="navItem2">Editorials</li></Link></motion.div>
+            <motion.div whileHover={{scale: 1.1}}> <Link href=""><li className="navItem2">About Us</li></Link></motion.div>
+            <motion.div whileHover={{scale: 1.1}}> <Link href="/#contact"><li className="navItem2">Contact Us</li></Link></motion.div>
         </ul>
 
     </div>

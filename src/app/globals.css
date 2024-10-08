@@ -19,7 +19,7 @@ body,p,a,li{
   /* base styles */
 body{
     background:var(--tertiary);
-    font-size: 15px;
+    font-size: 11px;
     overflow-x: hidden; 
   }
 .generalBtn{
@@ -92,7 +92,7 @@ h1,h2,h3,h4 {
     background: var(--tertiary);
     font-size: 1.5rem;
     position: absolute;
-    margin-top: 5px;
+    margin-top: 4px;
     z-index: 1;
     width: 100%;
     height: 1000px;
@@ -113,9 +113,7 @@ h1,h2,h3,h4 {
     font-size: 1.5em;
  }
   .homeCard{
-    border: 1px;
-    border-radius: 15px;
-    box-shadow: 5px 5px 5px var(--secondary);
+    
     padding: 10px;
     margin: 15px auto;
     margin-bottom: 20px;
@@ -126,10 +124,12 @@ h1,h2,h3,h4 {
   }
   .homeCard:hover{
     cursor: pointer;
-    background: #5cd850;
+    background: var(--secondary);
   }
   .homeCard h1{
     color: var(--tertiary);
+    padding: 5px;
+    font-size: 2em;
     margin: 10px;
     margin-bottom: 5px;
     text-align: left;
@@ -144,6 +144,7 @@ h1,h2,h3,h4 {
   .homeCardImg{
     width: 95%;
     padding-top: 10px;
+    height: 200px;
   }
   .homeCardGrid{
     display: grid;
@@ -187,6 +188,21 @@ h1,h2,h3,h4 {
     margin: 5px;
     width: 80%; 
     border-radius: 10px;
+  }
+
+  @keyframes fadeInUp {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0%);
+      opacity: 1;
+    }
+  }
+  
+  .testBtn {
+    
   }
 
 
@@ -233,7 +249,7 @@ h1,h2,h3,h4 {
       }
       .homeCard{
         width: 85%;
-        height: 700px;
+        height: 90%;
         grid-row: span 1;
         margin: 10px auto;
         margin-bottom: 20px;
@@ -274,6 +290,15 @@ h1,h2,h3,h4 {
         padding: 10px 20px;
         margin: 5px;
       }
+      .navItem22{
+        color: var(--primary);
+        background-color: var(--secondary);
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 10px 20px;
+        margin: 5px;
+      }
       .navItem2:hover{
         background: var(--secondary);
       }
@@ -283,7 +308,7 @@ h1,h2,h3,h4 {
       }
       .homeCard{
         width: 85%;
-        height: 700px;
+        height: 90%;
         grid-row: span 1;
         margin: 10px auto;
         margin-bottom: 20px;
