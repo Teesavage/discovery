@@ -37,7 +37,7 @@ export default function Banner() {
                 <i className="bi bi-envelope footerIcon"></i>
                 </motion.div>
                 <motion.h1
-                initial={{ x: 90 , opacity: 0 }}
+                initial={{ x: 20 , opacity: 0 }}
                 whileInView={{ x: 0, opacity: 1 }}
                 transition={{ duration: 1 }}
                 >
@@ -53,7 +53,7 @@ export default function Banner() {
                 </motion.p><br />
                 <motion.h2
                 
-                initial={{ x: 90 , opacity: 0 }}
+                initial={{ x: 20 , opacity: 0 }}
                 whileInView={{ x: 0, opacity: 1 }}
                 transition={{ duration: 1 }}
                 >
