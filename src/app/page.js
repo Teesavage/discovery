@@ -15,7 +15,7 @@ export default function Home(){
         <>
         <Banner />
         <div className="homeHeader">
-        <center><h1>THE DECK&apos;S TOP DISCOVERIES!</h1></center>
+        <h1>Recent Articles</h1>
         </div>
         
         
@@ -95,7 +95,7 @@ export default function Home(){
         <br />
 
         <hr />
-        <center><h1>EDITORIALS</h1></center>
+        <center><h1>MUSIC</h1></center>
         <hr />
         
         <section id="homeCardGrids">
@@ -111,6 +111,57 @@ export default function Home(){
         />
         
         
+        <HomeCards 
+            cardImage = "/images/nms.jpg"
+            cardImageAlt = "Kere By Major"
+            cardTitle = "KERE Is Not A Song You Just Listen To For Fun - Major"
+            cardTrack = ""
+            date = ""
+            description = "Let us dive into why afrobeat sensation and fast rising artist thinks his song is a worldwide hit!" 
+        />
+
+<HomeCards 
+            cardImage = "/images/nms.jpg"
+            cardImageAlt = "Kere By Major"
+            cardTitle = "KERE Is Not A Song You Just Listen To For Fun - Major"
+            cardTrack = ""
+            date = ""
+            description = "Let us dive into why afrobeat sensation and fast rising artist thinks his song is a worldwide hit!" 
+        />
+        
+
+        </section>
+
+        <center><Link href="/blog"><button className="generalBtn">VIEW MORE</button></Link></center>
+        <br />
+
+        <hr />
+
+        <center><h1>INTERVIEWS</h1></center>
+        <hr />
+        
+        <section id="homeCardGrids">
+
+        
+        <HomeCards 
+            cardImage = "/images/majorxcrayon.jpg"
+            cardImageAlt = "Kere By Major"
+            cardTitle = "KERE Is Not A Song You Just Listen To For Fun - Major"
+            cardTrack = ""
+            date = ""
+            description = "Let us dive into why afrobeat sensation and fast rising artist thinks his song is a worldwide hit!" 
+        />
+        
+        
+        <HomeCards 
+            cardImage = "/images/nms.jpg"
+            cardImageAlt = "Kere By Major"
+            cardTitle = "KERE Is Not A Song You Just Listen To For Fun - Major"
+            cardTrack = ""
+            date = ""
+            description = "Let us dive into why afrobeat sensation and fast rising artist thinks his song is a worldwide hit!" 
+        />
+
         <HomeCards 
             cardImage = "/images/nms.jpg"
             cardImageAlt = "Kere By Major"
