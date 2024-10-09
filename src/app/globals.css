@@ -98,6 +98,7 @@ h1,h2,h3,h4 {
   }
   .bannerText p{
     font-style: italic;
+    font-size: 1.1em;
   }
   .bannerIcons{
     font-size: 1.5em;
