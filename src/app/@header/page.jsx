@@ -15,7 +15,7 @@ export default function Header(){
 
     useEffect(() => {
         isOpen? document.getElementById("navList").style.display = "block" : document.getElementById("navList").style.display = "none";
-    }, [toggleSideBar])
+    }, [toggleSideBar, isOpen])
 
     useEffect(() => {
         //THIS IS FOR HEADER COLOR CHANGE/OPACITY

@@ -41,7 +41,7 @@ export default function Banner() {
                 whileInView={{ x: 0, opacity: 1 }}
                 transition={{ duration: 1 }}
                 >
-                    DISCOVERING TOMORROW'S STARS
+                    DISCOVERING TOMORROW&apos;S STARS
                 </motion.h1>
                 <motion.p
                 initial={{ x: -180 , opacity: 0 }}
